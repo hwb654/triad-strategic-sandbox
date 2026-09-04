@@ -1,5 +1,5 @@
 const CONFIG = {
-  // ⚠️ 改成你的 Cloudflare Worker 地址
+
   apiEndpoint: 'https://triad-proxy.2964437816.workers.dev',
 
   models: {
