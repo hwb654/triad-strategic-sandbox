@@ -1,0 +1,13 @@
+{
+  "name": "三角战略推演",
+  "short_name": "三角推演",
+  "start_url": "/triad-strategic-sandbox/",
+  "display": "standalone",
+  "background_color": "#f5f0e1",
+  "theme_color": "#c9b896",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

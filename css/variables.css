@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap');
+
+:root {
+  --parchment: #c9b896;
+  --parchment-dark: #b8a684;
+  --parchment-texture: #d4c4a8;
+  --cinnabar: #8b3a3a;
+  --cinnabar-light: #a04545;
+  --rice-paper: #f5f0e1;
+  --ink: #2c2c2c;
+  --ink-light: #4a4a4a;
+  --seal-red: #a52a2a;
+  --k3-color: #d4a574;
+  --v4-color: #7a9cc6;
+  --user-color: #4a7c59;
+  --gold: #c9a227;
+  --shadow-soft: 0 2px 8px rgba(0,0,0,0.12);
+  --shadow-medium: 0 4px 16px rgba(0,0,0,0.15);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.4s ease;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--rice-paper);
+  color: var(--ink);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.25); }
