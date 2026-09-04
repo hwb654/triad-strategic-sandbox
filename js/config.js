@@ -1,7 +1,7 @@
 const CONFIG = {
   // ⚠️ 重要：把下面这行改成你的 Cloudflare Worker 地址
   // 格式：https://triad-proxy.你的用户名.workers.dev
-  apiEndpoint: 'https://triad-proxy.2964437816.workers.dev/',
+  apiEndpoint: 'https://triad-proxy.2964437816.workers.dev',
 
   models: {
     k3: {
